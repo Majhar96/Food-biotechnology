@@ -12,7 +12,7 @@ h1{
 p{
     text-align: justify;
 }
-section{
+.flexible-container{
     display: flex;
 }
 .div-width{
@@ -35,4 +35,55 @@ section{
     background-image: url(images/Frame\ 57.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+.align-center{
+    text-align: center;
+}
+.box-area{
+    display: flex;
+   
+}
+.single-box{
+
+    margin: 30px;
+    padding: 30px;
+    border:1px solid;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px grey;
+    
+}
+.image-box{
+    display: inline;
+    padding: 10px;
+    
+    
+}
+.image-text{
+    display: inline;
+    padding:30px;
+}
+#img1{
+    background-image: url(images/agriculture-biotechnology.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+#img2{
+    background-image: url(images/farmer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#img3{
+    background-image: url(images/for-people.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.footer{
+    background-color: rgb(123, 123, 170);
+    margin:30px;
+    padding:10px;
+}
+.footer h3,p{
+    text-align: center;
+    
 }
