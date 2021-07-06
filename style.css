@@ -1,6 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(202, 227, 248);
+    background-color: rgb(195, 203, 209);
+    margin:0;
 }
 h1{
     font-size: 50px;
@@ -24,9 +25,14 @@ section{
 }
 .link-style{
     text-decoration: none;
-    color:rgb(12, 14, 12);
+    color:rgb(255, 255, 255);
     font-weight: 800;
     padding: 10px 20px;
     border-radius: 10px;
     background-image:linear-gradient(rgb(250, 165, 7),rgb(212, 36, 36));
+}
+.background-image{
+    background-image: url(images/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
